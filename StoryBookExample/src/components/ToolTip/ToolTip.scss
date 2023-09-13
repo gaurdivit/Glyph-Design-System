@@ -1,0 +1,31 @@
+.arrow-Top {
+	border-top: solid 10px #1f6b46;
+	border-left: solid 10px transparent;
+	border-right: solid 10px transparent;
+	left: calc(50% - 10px);
+	top: 100%;
+}
+
+.arrow-Bottom {
+	border-bottom: solid 10px #1f6b46;
+	border-left: solid 10px transparent;
+	border-right: solid 10px transparent;
+	bottom: 100%;
+	left: calc(50% - 10px);
+}
+
+.arrow-Right {
+	border-right: solid 10px #1f6b46;
+	border-bottom: solid 10px transparent;
+	border-top: solid 10px transparent;
+	right: 100%;
+	top: calc(50% - 10px);
+}
+
+.arrow-Left {
+	border-left: solid 10px #1f6b46;
+	border-bottom: solid 10px transparent;
+	border-top: solid 10px transparent;
+	left: 100%;
+	top: calc(50% - 10px);
+}

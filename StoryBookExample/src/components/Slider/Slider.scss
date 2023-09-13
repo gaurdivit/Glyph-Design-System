@@ -1,0 +1,20 @@
+.slider-input {
+	-webkit-appearance: none;
+	height: 4px;
+	cursor: pointer;
+
+	&::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		height: 9px;
+		width: 9px;
+		border-radius: 50%;
+		background: #777777;
+		cursor: pointer;
+		transition: background 0.2s ease-in-out;
+
+		&:hover {
+			box-shadow: inherit;
+			background: #e2e2e2;
+		}
+	}
+}

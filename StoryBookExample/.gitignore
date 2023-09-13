@@ -1,0 +1,9 @@
+**/node_modules
+**/storybook-static
+package-lock.json
+.vscode
+*.lock
+.DS_Store
+dist
+yarn-error.log
+.storybook/index.css

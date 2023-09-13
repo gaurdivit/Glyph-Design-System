@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"jsx": "react",
+		"module": "ESNext",
+		"declaration": true,
+		"outDir": "dist",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"emitDeclarationOnly": true, // for .d.ts files
+		"strictPropertyInitialization": false,
+		"strictNullChecks": false,
+		"noImplicitAny": false
+	},
+	"exclude": ["node_modules", "src/**/*.stories.tsx"]
+}
